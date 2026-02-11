@@ -1,0 +1,42 @@
+{
+  "name": "perfilamiento-otic-cchc-backend",
+  "version": "1.0.0",
+  "description": "Backend NestJS para gestion de usuarios, perfiles y reportes con Keycloak",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main.js",
+    "build": "nest build"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.2.0",
+    "@nestjs/config": "^3.1.1",
+    "@nestjs/core": "^10.2.0",
+    "@nestjs/passport": "^10.0.2",
+    "@nestjs/platform-express": "^10.2.0",
+    "@nestjs/swagger": "^7.1.2",
+    "@nestjs/typeorm": "^10.0.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "nest-keycloak-connect": "^1.9.2",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.1",
+    "typeorm": "^0.3.17"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.2.1",
+    "@nestjs/schematics": "^10.1.0",
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/node": "^20.8.6",
+    "@types/passport-jwt": "^3.0.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
